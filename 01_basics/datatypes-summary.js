@@ -32,7 +32,9 @@ const id = Symbol('123');
 const anotherId = Symbol('123');
 
 // Even if we pass same value in symbol, it is still is different
-
+  
 console.log(anotherId===id); // false
 
+// +++++++++++++++++++++++ Memory +++++++++++++++++++++++++++++++++
+// Stack (Primitive), Heap (Non-Primitive )
 
